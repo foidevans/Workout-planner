@@ -1,5 +1,4 @@
-"use client";
-
+"use client"
 // import React from 'react'
 import { Button } from "./ui/button";
 
@@ -13,7 +12,7 @@ const Header = () => {
         <p className="text-gray-500">
           Customize every rep, rest, and rhythm, then share your fitness flow
           with the world.
-        </p>
+        </p>              
         <Button className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-5 py-2 rounded-lg shadow-md mt-6">
           Get Started
         </Button>
