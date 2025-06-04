@@ -1,6 +1,6 @@
 "use client"
-// import React from 'react'
 import { Button } from "./ui/button";
+import Link from 'next/link'
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
           with the world.
         </p>              
         <Button className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-5 py-2 rounded-lg shadow-md mt-6">
-          Get Started
+          <Link href='/workout-form' className="flex-1">Get Started</Link>
         </Button>
       </div>
     </>
