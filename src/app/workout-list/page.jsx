@@ -102,11 +102,11 @@ const Page = () => {
                 </div>
 
                 <div className="flex gap-2">
-                  <Dialog>
+                  <Dialog className="bg-white">
                     <DialogTrigger onClick={() => handleEditClick(data, i)}>
                       <SquarePen className="h-5 w-5 text-gray-500 hover:text-blue-500" />
                     </DialogTrigger>
-                    <DialogContent className="bg-white-500">
+                    <DialogContent className="bg-white">
                       <DialogHeader>
                         <DialogTitle>Edit Workout</DialogTitle>
                       </DialogHeader>
