@@ -106,7 +106,7 @@ const Page = () => {
                     <DialogTrigger onClick={() => handleEditClick(data, i)}>
                       <SquarePen className="h-5 w-5 text-gray-500 hover:text-blue-500" />
                     </DialogTrigger>
-                    <DialogContent>
+                    <DialogContent className="bg-white-500">
                       <DialogHeader>
                         <DialogTitle>Edit Workout</DialogTitle>
                       </DialogHeader>
